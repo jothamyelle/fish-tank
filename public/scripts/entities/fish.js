@@ -2,7 +2,7 @@ class Fish extends Denizen {
 
   constructor(options) {
     super(options);
-    this.imageUri = '/images/fish01.png';
+    this.imageUri = '/images/blueFish.png';
     this.maxSwimSpeed = 100;
     this.makeNewVelocity();
     this.isTasty = true;
@@ -32,6 +32,5 @@ class Fish extends Denizen {
     this.swimVelocity = this.generateSwimVelocity(this.maxSwimSpeed, minMag || 0);
     this.timeUntilSpeedChange = randRangeInt(5);
   }
-
 }
 

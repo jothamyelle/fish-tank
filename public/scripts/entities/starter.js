@@ -8,6 +8,7 @@ class Starter extends Denizen {
 
   update(t) {
     // no physics for Starter
+    console.log("starter update method called");
   }
 
   onClick(event) {

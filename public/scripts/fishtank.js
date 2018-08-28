@@ -60,6 +60,8 @@ class Fishtank {
     for (var id in this.denizens) {
       if (this.denizens[id].update) {
         this.denizens[id].update(time);
+        // console.log("I'm running every tick");
+        console.log("this.denizens[id]:", this.denizens[id]);
       }
     }
   }
